@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hospital</title>
+        <style>
+            fieldset{
+                background-color:whitesmoke;
+            }
+            fieldset{
+                font-size:25px;
+                background-color:skyblue;
+            }
+        </style>
+    </head>
+    <body><center>
+    <h1>BOOK APPOINTMENT</h1>
+    <fieldset>
+    <form>
+        <label for="fname">Name:</label>
+        <input type="text" name="fname" placeholder=" Name" required>
+            <br>
+            <br>
+        <label for="ename">E-mail:</label>
+        <input type="text" name="lname" placeholder="E-mail" required>
+            <br>
+            <br>
+        <label for="pname">Purpose:</label>
+        <input type="text" name="pname" placeholder="purpose of appointment" required>
+            <br>
+            <br>
+        <label for="nname">Mobile Number:</label>
+        <input type="text" name="nname" placeholder="mobile number" required>
+            <br>
+            <br>
+            <form action="">
+                    <label>Select Department: </label>
+                    <input list="Department">
+                    <datalist id="Department">
+                        <option value="Cardiology" />
+                        <option value="Dermatology and cosmetology" />
+                        <option value="General Surgery" />
+                        <option value="Health checkup package" />
+                        <option value="Neurology" />
+                    </datalist>
+                    <br>
+                    <label>Male<input type="radio" name="gender" value="male" /></label>
+                    <br>
+                        <label>Female<input type="radio" name="gender" value="female" /></label>
+            </form>
+            <br>
+            <br>
+            <button style="font-size:25px;">Submit</button>
+        
+    </form>
+    </fieldset>
+    </center>
+    </body>
+<html>
+
